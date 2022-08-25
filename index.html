@@ -372,11 +372,14 @@
                         <h2 class="main-title">الاحداث القادمة</h2>
                         <div class="container">
                             <!-- <p id="demo" style="font-size: xx-large;"></p> -->
-                            <div id="countdown"></div>
+                            <!-- <div id="countdown"></div> -->
+<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<a href="https://logwork.com/countdown-wxk2" class="countdown-timer" data-style="circles" data-timezone="Asia/Riyadh"
+    data-date="2022-09-07 00:00" data-background="#1e89ba" data-digitscolor="#208bbc">.</a>
         </div>
     </div>
     <!-- End Events -->
-    <hr style="margin-top: 200px;">
+    <hr style="margin-top: 100px;">
     <!-- ============ END OUR SKILLS SECTION ================ -->
     <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
     <!-- ============ START CONTACT SECTION ================ -->
@@ -401,7 +404,7 @@
     <!-- ============ START FOOTER SECTION ================ -->
     <div class="footer">
         <div class="container">
-            <img src="/images/تباشير السرور.jpeg" alt="Logo">
+            <img src="images/تباشير السرور.jpeg" alt="Logo">
             <p>مؤسسة تباشير السرور في المملكة العربية السعودية , الرياض</p>
             <p class="copyright"><span> &copy;</span> 2022 <a target="_blank"
                     href="https://www.facebook.com/Maro.Al.Kades/"><span>
@@ -412,38 +415,6 @@
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
                         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
                         crossorigin="anonymous"></script>
-<script>
-    // set the date we're counting down to
-    var target_date = new Date('Septamber, 7, 2022').getTime();
-
-    // variables for time units
-    var days, hours, minutes, seconds;
-
-    // get tag element
-    var countdown = document.getElementById('countdown');
-
-    // update the tag with id "countdown" every 1 second
-    setInterval(function () {
-
-        // find the amount of "seconds" between now and target
-        var current_date = new Date().getTime();
-        var seconds_left = (target_date - current_date) / 1000;
-
-        // do some time calculations
-        days = parseInt(seconds_left / 86400);
-        seconds_left = seconds_left % 86400;
-
-        hours = parseInt(seconds_left / 3600);
-        seconds_left = seconds_left % 3600;
-
-        minutes = parseInt(seconds_left / 60);
-        seconds = parseInt(seconds_left % 60);
-
-        // format countdown string + set tag value
-        countdown.innerHTML = '<span class="days">' + days + ' <label>أيام</label></span> <span class="hours">' + hours + ' <label>ساعات</label></span> <span class="minutes">'
-            + minutes + ' <label>دقائق</label></span> <span class="seconds">' + seconds + ' <label>ثواني</label></span>';
-
-    }, 1000);
-</script>
+<script src="js/main.js"></script>
 </body>
 </html>
