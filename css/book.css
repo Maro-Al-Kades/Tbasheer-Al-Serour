@@ -1,8 +1,8 @@
         :ROOT {
-            --main-color: #a10000;
-            --transparent-color: rgba(146, 5, 5, 0.322);
-            --light-color: #777;
-            --section-padding: 100px;
+        --main-color: #208bbc;
+        --transparent-color: #208bbc54;
+        --light-color: #777;
+        --section-padding: 100px;
         }
 
         * {
